@@ -81,7 +81,7 @@ try:
     with col1:
         st.subheader("📊 Tabela Comparativa Geral")
         st.dataframe(df_res.style.format("{:.2%}"), use_container_width=True)
-        st.markdown("**Veredicto:** A Regressão Logística lidera em todos os cenários práticos.")
+        st.markdown("**Veredito Final:** A Regressão Logística lidera em todos os cenários práticos.")
 
     with col2:
         st.subheader(f"🎯 Matriz de Confusão: {modelo_selecionado}")
